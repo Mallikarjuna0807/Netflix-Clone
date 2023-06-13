@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="shortcut icon"
+    type="x-icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/f/ff/Netflix-new-icon.png"
+  />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="signIn.css">
+    <script src="signIn.js" defer></script>
+</head>
+<body>
+    <!-- ---------------------------- navebar -------------------------------------- -->
+    <div class="header">
+        <div class="img-Netflix">
+            <img src="https://www.freepnglogos.com/uploads/netflix-logo-history-32.png" alt="">
+        </div>
+    </div>
+    <!-- -------------------------------- body ------------------------------------- -->
+    <div class="container">
+        <div class="inputUser">
+            <h2>Sign In</h2>
+            <input type="mail" id="emailcheck" placeholder="Email or phone number">
+            <input type="password" id="passwordcheck" placeholder="password">
+            <button id="signIn" class="submit" onclick="signIn()">Sing In</button>
+            <div class="Remember">
+                <p><input type="checkbox">Remember me</p>
+                <p>Need help?</p>
+            </div>
+            <div class="info">
+                <input type="checkbox" id="check">
+                <h2>New to Netflix?<button id="signInData" onclick="signIn()">Sign In now.</button></h2>
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<label for="check">Learn more.</label></p>
+                <div class="content">
+                    <p>The information collected by Google reCAPTCHA is subject to the Google <samp>Privacy Policy</samp> and <samp>Terms of Service</samp>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------- footer --------------------------- -->
+    <div class="footer">
+        <h2>Questions? Call 000-800-919-1694</h2>
+        <div class="row">
+            <div class="col">
+                <a href="https://help.netflix.com/support/412">FAQ</a>
+                <a href="https://www.netflix.com/in/login#">Cookie Preferences</a>
+            </div>
+            <div class="col">
+                <a href="https://help.netflix.com/">Help Centre</a>
+                <a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a>
+            </div>
+            <div class="col">
+                <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
+            </div>
+            <div class="col">
+                <a href="https://help.netflix.com/legal/privacy">Privacy</a>
+            </div>
+        </div>
+        <select name="" class="languageChange">
+            <option value="English">English</option>
+            <option value="hindi">हिंदी</option>
+          </select>
+        </div>
+    </div>
+
+</body>
+</html>
