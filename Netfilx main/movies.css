@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(24,24,24);
+    color: #fff;
+}
+.navebar{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.navebar>img{
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.buttons{
+    width: 15%;
+    height: 30px;
+    /* border: 1px solid; */
+    display: flex;
+    margin-right: 20px;
+    margin-top: 13px;
+    justify-content: space-between;
+}
+.buttons>button{
+    width: 45%;
+    background-color: black;
+    border: 1px solid;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 13px;
+    color: #fff;
+}
+.text{
+    width: 40%;
+    height: 210px;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    margin-left: 38px;
+}
+.text h1{
+    font-family:  "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 62.5px;
+}
+.text p{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+h3{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-left: 40px;
+}
+.conatiner{
+    width: 95%;
+    height: 230px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.pastMovies{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    gap: 10px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.pastMovies::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.pastMovies p{
+    margin: auto;
+}
+.Comedy{
+    width: 95%;
+    height: 230px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.Suspenseful{
+    width: 95%;
+    height: 230px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.Action{
+    width: 95%;
+    height: 230px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.Horror{
+    width: 95%;
+    height: 230px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
