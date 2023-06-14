@@ -184,3 +184,11 @@ ActionMovies.forEach(function(ele){
     name.innerText = ele.moviename;
     newdiv.appendChild(name);
 })
+
+function signUp(){
+    window.location.href = "../signUp/signUp.html"
+}
+
+function signIn(){
+    window.location.href = "../signIn/signIn.html"
+}

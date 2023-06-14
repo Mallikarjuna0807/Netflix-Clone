@@ -9,16 +9,12 @@ btn.addEventListener("click", function (ele) {
     if (email === emailvalue && password === passwordvalue) {
       console.log(email, password);
       alert("credentials same");
-      window.location.href=""
+      window.location.href="../Netfilx main/movies.html"
     } else {
       alert("donot match email or password");
     }
   }
 });
-
-function signIn(){
-  window.location.href = "../Netfilx main/movies.html"
-}
 
 function signUp(){
   window.location.href = "../signUp/signUp.html"
