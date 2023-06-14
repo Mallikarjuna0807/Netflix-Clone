@@ -17,5 +17,9 @@ btn.addEventListener("click", function (ele) {
 });
 
 function signIn(){
-  window.location.href = ""
+  window.location.href = "../Netfilx main/movies.html"
+}
+
+function signUp(){
+  window.location.href = "../signUp/signUp.html"
 }
