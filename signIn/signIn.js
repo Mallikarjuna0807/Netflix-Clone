@@ -9,7 +9,7 @@ btn.addEventListener("click", function (ele) {
     if (email === emailvalue && password === passwordvalue) {
       console.log(email, password);
       alert("credentials same");
-      window.location.href="../Netfilx main/movies.html"
+      window.location.href="../movies.html"
     } else {
       alert("donot match email or password");
     }
