@@ -9,7 +9,7 @@ btn.addEventListener("click", function (ele) {
     if (email === emailvalue && password === passwordvalue) {
       console.log(email, password);
       alert("credentials same");
-      window.location.href="../movies.html"
+      window.location.href="../index.html"
     } else {
       alert("donot match email or password");
     }
